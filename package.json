@@ -1,0 +1,36 @@
+{
+    "name": "@aboveyou00/util-inspect",
+    "version": "0.1.8",
+    "description": "The package util-inspect bundled with custom typings for Typescript support",
+    "main": "./dist/index.js",
+    "typings": "./dist/index",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "rimraf ./dist && tsc",
+        "watch": "tsc -w",
+        "prepublish": "rimraf ./dist && tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aboveyou00/util-inspect.git"
+    },
+    "keywords": [
+        "util-inspect",
+        "npm"
+    ],
+    "author": "Brandon Slade <brandonyoyoslade@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/aboveyou00/util-inspect/issues"
+    },
+    "homepage": "https://github.com/aboveyou00/util-inspect#readme",
+    "dependencies": {
+        "@types/core-js": "^0.9.41",
+        "@types/node": "^7.0.29",
+        "util-inspect": "^0.1.8"
+    },
+    "devDependencies": {
+        "rimraf": "^2.6.1",
+        "typescript": "^2.3.4"
+    }
+}
